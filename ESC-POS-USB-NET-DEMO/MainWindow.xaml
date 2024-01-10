@@ -1,0 +1,29 @@
+﻿<Window x:Class="Deli_POS_USB_NET_DEMO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deli_POS_USB_NET_DEMO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="497.156" Width="549.401">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBox x:Name="txtPrinterName" Height="40" FontSize="24">801P</TextBox>
+            <Separator Margin="0,30,0,0"></Separator>
+            <Button Height="40" FontSize="18" Click="Button_Click">Test Print</Button>
+            <Separator Margin="0,30,0,0"></Separator>
+            <Button Height="40" FontSize="18" Click="Button_ImagePrint">Image Print</Button>
+
+            <Separator Margin="0,30,0,0"></Separator>
+            <Button Height="40" FontSize="18" Click="Button_BarcodePrint" >Print Barcode</Button>
+
+            <Separator Margin="0,30,0,0"></Separator>
+            <Button Height="40" FontSize="18" Click="Button_OpenDrawer"  >Open Drawer</Button>
+
+            <Separator Margin="0,30,0,0"></Separator>
+            <Button Height="40" FontSize="18" Click="Button_CustomSeperator"   >Custom Seperator</Button>
+            <Label HorizontalAlignment="Center">Sample App Developed by Nafees Khabir. Version 1.1.0</Label>
+        </StackPanel>
+
+    </Grid>
+</Window>

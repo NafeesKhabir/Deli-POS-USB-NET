@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>Nafees Khabir</Authors>
+    <ApplicationVersion>1.1.0</ApplicationVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Deli_POS_USB_NET</RootNamespace>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>This project is a simple .NET (C#) Implementation of the Deli 801P ESC/POS Printing using USB Device Driver.</Description>
+    <Copyright>Copyright (c) 2024 Nafees Khabir</Copyright>
+    <PackageLicenseFile>
+    </PackageLicenseFile>
+    <PackageProjectUrl>#</PackageProjectUrl>
+    <PackageIconUrl>https://www.deliworld.com/uploads/image/20220518/10/deli-logo.png</PackageIconUrl>
+    <RepositoryUrl>#</RepositoryUrl>
+    <NeutralLanguage>English</NeutralLanguage>
+    <Title>Deli ESC/POS USB Print </Title>
+    <Version>1.1.2</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Deli POS ThermalPrinter C# SDK</PackageTags>
+    <Company>Perky Rabbit Corporation Limited</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="8.0.1" />
+  </ItemGroup>
+</Project>
