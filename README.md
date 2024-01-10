@@ -20,39 +20,6 @@ Deli_POS_USB_NET is a free and open source .NET (C#) Implementation of the Deli 
 - **Focus on your business logic**. With Deli_POS_USB_NET, you should focus on your business logic. we do the printing logic.
 - **Customizable**. You can quickly build your logic by fully customizing the code to fit your needs perfectly.
 
-## Getting Started
-
-follow the steps below:
-
-### ⏳ Installation
-
-Use this **Quickstart** command to install in your project :
-
-- (Use **nuget** package manager to install (recommended))
-
-```bash
-Install-Package Deli_POS_USB_NET
-```
-
-**or**
-
-- (Use .Net Cli to install)
-
-```bash
-dotnet add package Deli_POS_USB_NET
-```
-
-This command install Deli_POS_USB_NET with your project.
-
-Enjoy 🎉
-
-### Example Using C#
-
-Import ESC_POS_USB_NET Printer Class:
-
-```csharp
-using ESC_POS_USB_NET.Printer;
-```
 
 You can find printer name from (Windows):  Control Panel->Hardware and Sound->Devices and Printers-> Your Printer's Name
 
