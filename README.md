@@ -197,18 +197,17 @@ printer.PrintDocument();
 
 **Dependencies:**
 
-- .NETStandard 2.0
-- System.Drawing.Common (>= 8.1.0)
+- .NETStandard 8.0
+- System.Drawing.Common (>= 8.0.1)
 
 **We recommend always using the latest version of Deli_POS_USB_NET to start your new projects**.
 
 This project is currently in **Under Development**. Significant breaking changes are unlikely at this stage of the project, but using the latest version ensures you have all the latest features and updates. New releases are usually shipped every two weeks to fix/enhance the project.
 
-##Contribution Credits
-
-This work is reworked from Respected author *mtmsuhail*.  
 
 ## 🧑‍🤝‍🧑 Contributing
+
+This work is reworked from Respected author *mtmsuhail*.  
 
 We welcome open an issue if you have any trouble.
 
